@@ -4,18 +4,18 @@
 void main()
 
 {
-int i,num,ele[20],result;
+int i,num,el[20],res;
 clrscr();
 printf("enter the number of elements:");
 scanf("%d",&num);
 printf("enter the elements of array:");
 for(i=0;i<num;i++)
 scanf("%d",&ele[i]);
-result=ele[0];
+result=el[0];
 for(i=1;i<num;i++)
-result^=ele[i];
+res^=el[i];
 
-printf("unique element is :%d",result);
+printf("unique element is :%d",res);
 
 getch();
 }
