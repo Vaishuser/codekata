@@ -12,5 +12,5 @@ when "o"
 when "u"
   puts 'Vowel'
 else
-  puts " Not a  Vowel"
+  puts " Consonant"
 end
